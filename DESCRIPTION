@@ -1,0 +1,16 @@
+Package: vsm
+Title: Varying-smoother models
+Description: Functions to fit varying-smoother models, as defined in the report
+    at https://arxiv.org/abs/1412.0778.
+Version: 0.1
+Date: 2016-12-12
+License: GPL (>=2)
+Authors@R: c(person("Philip", "Reiss", role=c("aut","cre"),
+             email="reiss@stat.haifa.ac.il"))
+Depends: stats, graphics     
+Imports:
+    mgcv,
+    fda,
+    shape,
+    colorRamps
+RoxygenNote: 5.0.1
