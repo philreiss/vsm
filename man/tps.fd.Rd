@@ -29,7 +29,7 @@ tps.fd(Y, x, argvals = NULL, k.f = 25, k.x = 15, norder.x = 4,
 \item{method}{"P-OLS" for penalized ordinary least squares, "P-GLS" for penalized 
 generalized least squares}
 
-\item{cov.method}{covariance estimation method for GLS: "mod.chol" for modified Choleski 
+\item{cov.method}{covariance estimation method for GLS: "mod.chol" for modified Cholesky 
 decomposition, or "naive"}
 
 \item{adapt}{logical: should the predictor-dimension smoothing parameter be chosen 
