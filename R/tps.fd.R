@@ -14,7 +14,7 @@
 #' @param q.x,q.f penalty degree for the predictor- and function-direction bases
 #' @param method "P-OLS" for penalized ordinary least squares, "P-GLS" for penalized 
 #' generalized least squares
-#' @param cov.method covariance estimation method for GLS: "mod.chol" for modified Choleski 
+#' @param cov.method covariance estimation method for GLS: "mod.chol" for modified Cholesky 
 #' decomposition, or "naive" 
 #' @param adapt logical: should the predictor-dimension smoothing parameter be chosen 
 #' in a spatially adaptive manner? 
